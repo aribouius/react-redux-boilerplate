@@ -1,0 +1,16 @@
+.nav {
+  width: 100%;
+  background-color: #4B70A0;
+}
+
+.nav a {
+  color: #FFF;
+  display: block;
+  float: left;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.body {
+  padding: 30px;
+}

@@ -1,0 +1,30 @@
+body {
+  background: #EFEFEF;
+}
+
+:global(.clearfix:before),
+:global(.clearfix:after) {
+  display: table;
+  content: ' ';
+}
+
+:global(.clearfix:after) {
+  clear: both;
+}
+
+:global(.hidden) {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+:global(.invisible) {
+  visibility: hidden;
+}
+
+:global(.float-left) {
+  float: left !important;
+}
+
+:global(.float-right) {
+  float: right !important;
+}
